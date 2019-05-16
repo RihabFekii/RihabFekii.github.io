@@ -30,6 +30,15 @@ h2 {
 	font-size: 48px;
 }
 
+
+h2:hover{
+	color: #fc425a
+}
+
+#rihab:hover{
+	color:#40424a;
+}
+
 h3 {
 	font-size: 30px;
 }
@@ -44,6 +53,18 @@ img {
 	max-width: 100%;
 }
 
+.fa-linkedin:hover { 
+    color: #326fca
+}
+.fa-instagram:hover{
+	color: #ff0f3c
+}
+.fa-facebook:hover { 
+    color: #0e46df
+}
+
+
+
 #lolo{
 	width:60px;
 	height:80px;
@@ -56,6 +77,9 @@ textarea:focus {
 	outline: none;
 }
 
+.site-btn:hover{
+	background-color:#e2a599;
+}
 a:hover,
 a:focus {
 	text-decoration: none;
@@ -670,7 +694,7 @@ ol {
 	.certifc{
 		box-sizing: border-box;
 		width: 900px;
-		height: 350px;
+		height: 300px;
 	}
 	.certif{
 		box-sizing: border-box;
@@ -1544,3 +1568,96 @@ ol {
 		padding-top: 250px;
 	}
 }
+
+/*--------- Start Work Area -------------*/
+.work-area {
+	background: #f9f9ff; }
+	@media (max-width: 1024px) {
+	  .work-area .row.mb-80 {
+		margin-bottom: 30px; } }
+	.work-area .section-title {
+	  margin-bottom: 0; }
+	.work-area .filters {
+	  text-align: center; }
+	  @media (max-width: 991px) {
+		.work-area .filters {
+		  margin-top: 40px; } }
+	  .work-area .filters ul {
+		padding: 0;
+		text-align: right; }
+		@media (max-width: 991px) {
+		  .work-area .filters ul {
+			text-align: left; } }
+		.work-area .filters ul li {
+		  list-style: none;
+		  display: inline-block;
+		  padding: 0 15px;
+		  cursor: pointer;
+		  position: relative;
+		  text-transform: capitalize;
+		  font-size: 13px; }
+		  .work-area .filters ul li:last-child {
+			padding-right: 0; }
+		  @media (max-width: 991px) {
+			.work-area .filters ul li:first-child {
+			  padding-left: 0; } }
+		  .work-area .filters ul li.active, .work-area .filters ul li:hover {
+			color: #e45447; }
+	.work-area .filters-content .show {
+	  opacity: 1;
+	  visibility: visible;
+	  transition: all 350ms; }
+	.work-area .filters-content .hide {
+	  opacity: 0;
+	  visibility: hidden;
+	  transition: all 350ms; }
+	.work-area .filters-content img {
+	  border-radius: 10px;
+	  width: 100%; }
+  
+  .single-work {
+	border-radius: 5px;
+	margin-bottom: 30px; }
+	.single-work .thumb .overlay-bg {
+	  background: #e45447;
+	  opacity: 0;
+	  border-radius: 5px;
+	  -webkit-transition: all 0.3s ease 0s;
+	  -moz-transition: all 0.3s ease 0s;
+	  -o-transition: all 0.3s ease 0s;
+	  transition: all 0.3s ease 0s; }
+	.single-work .thumb .image {
+	  opacity: 1;
+	  display: block;
+	  width: 100%;
+	  height: 100%;
+	  transition: .5s ease;
+	  backface-visibility: hidden; }
+	.single-work .middle {
+	  transition: .5s ease;
+	  opacity: 0;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  -webkit-transform: translate(-50%, -50%);
+	  -moz-transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  -o-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+	  text-align: center;
+	  -webkit-transition: all 0.3s ease 0s;
+	  -moz-transition: all 0.3s ease 0s;
+	  -o-transition: all 0.3s ease 0s;
+	  transition: all 0.3s ease 0s; }
+	  .single-work .middle h4 {
+		font-size: 21px;
+		color: #fff; }
+	  .single-work .middle .cat {
+		font-size: 15px;
+		color: #fff; }
+	.single-work:hover .thumb .overlay-bg {
+	  opacity: .80; }
+	.single-work:hover .middle {
+	  opacity: 1; }
+  
+  /*--------- End Work Area -------------*/
