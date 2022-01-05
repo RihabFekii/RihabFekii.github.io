@@ -539,7 +539,7 @@ ol {
 ----------------------*/
 
 .resume-section.with-bg {
-	background-image: url(../img/resume-bg.jpg);
+	background-color: #70a7f0;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
