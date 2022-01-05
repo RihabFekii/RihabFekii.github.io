@@ -738,8 +738,8 @@ ol {
   .single-service {
 	color: #fff;
 	padding: 30px 30px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
 	border-radius: 5px;
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
