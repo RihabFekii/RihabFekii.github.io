@@ -33,7 +33,7 @@ h2 {
 
 
 h2:hover{
-	color: #fc425a
+	color: #e2a599
 }
 
 #rihab:hover{
@@ -65,6 +65,9 @@ img {
 }
 .fa-github:hover { 
 	color: #000207
+}
+.fa-medium:hover {
+	color:#000
 }
 
 .portfoloo{
