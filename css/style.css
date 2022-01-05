@@ -430,8 +430,14 @@ ol {
 	margin-top: 15px;
 }
 
+.nav-elements {
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #90acd1 ;
+}
+
 /*---------------------
-	Hero section #f8f2f3
+	Hero section 
 -----------------------*/
 .hero-section {
 	background: #e2a599;
@@ -445,7 +451,7 @@ ol {
 	font-size: 90px;
 	line-height: normal;
 	margin-bottom: 20px;
-	margin-top: 60px;
+	margin-top: 20px;
 }
 
 .hero-text p {
